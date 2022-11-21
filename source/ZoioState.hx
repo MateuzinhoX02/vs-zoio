@@ -85,12 +85,6 @@ class ZoioState extends MusicBeatState
 				receba();
 			}
 
-			if (controls.BACK)
-			{
-				MusicBeatState.switchState(new MainMenuState());
-			}
-		}
-
 		if (controls.BACK)
 		{
 			FlxG.sound.play(Paths.sound('cancelMenu'));
